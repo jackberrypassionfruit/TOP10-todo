@@ -1,0 +1,73 @@
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body > div > div > div {
+  border: 0.1rem solid black;
+}
+
+.container {
+  height: 100%;
+}
+.container .top-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em;
+}
+.container .main {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+.container .main .left-bar {
+  background-color: rgba(227, 227, 227, 0.949);
+  padding: 0.5rem;
+}
+.container .main .left-bar .categories {
+  background-color: white;
+  border-radius: 1em;
+  padding: 0.5em;
+  display: flex;
+  flex-flow: column nowrap;
+}
+.container .main .left-bar .categories .btn {
+  font-size: 1.4em;
+  width: fit-content;
+  border: 0.05em solid black;
+  border-radius: 0.2em;
+  margin: 0.2em;
+  padding: 0.1em;
+  transition: 100ms background-color;
+}
+.container .main .left-bar .categories .btn:hover {
+  background-color: rgba(172, 172, 172, 0.949);
+}
+.container .main .left-bar .categories .btn:active {
+  background-color: rgba(139, 139, 139, 0.949);
+}
+.container .main .right-bar {
+  width: 100%;
+  padding: 1em;
+}
+.container .main .right-bar h2 {
+  margin: 0;
+}
+.container .main .right-bar li {
+  margin-bottom: 1em;
+  list-style: none;
+}
+.container .main .right-bar li .done {
+  height: 0.9rem;
+  width: 0.9rem;
+  border: 0.05rem solid black;
+  border-radius: 100%;
+  margin: 0.2rem;
+}
+.container .main .right-bar li span {
+  padding: 0.6rem;
+  border-bottom: 0.05rem solid black;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,17 @@
+TOP mentions projects, but I want to implement indenting that goes farther than iCloud (1 lvl)
+  - Will have to have recursive DOM creations
+  - 
+
+Multiple different todo lists
+ - Chosen from left bar
+ - Each will be stored in a localStorage object
+ - some function will render the tables on the right bar now
+
+initialize localStorage
+- have list of category names
+- iterate over list
+  - if key doesn't exist
+    - Now it does
+
+
+Personal Todo list
